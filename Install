@@ -415,7 +415,7 @@ proto $PROTOCOL
 sndbuf 0
 rcvbuf 0
 remote $CLIENT 999 udp
-remote $IP:$PORT@@beetalkmobile.com $PORT tcp-client
+remote $IP:$PORT@beetalkmobile.com $PORT tcp-client
 http-proxy $IP $PROXY
 resolv-retry infinite
 nobind
@@ -605,8 +605,8 @@ fi
 	echo "  (\_(\ "
 	echo " (=’ :’) :* Script by K-KRIT"
 	echo "  (,(”)(”) °.¸¸.•"
-	echo ""
-	echo "VPN KK : 55"
+	echo "-------------------------------------------------"
+	echo "VPN KK :สร้างโดย OverKrit Facebook:Krit"
 	echo ""
 	echo "OpenVPN, Squid Proxy, Nginx .....Install finish."
 	echo "IP Server : $IP"
@@ -635,8 +635,9 @@ fi
 		echo "Download Config : http://$IP:85/$CLIENT.ovpn"
 		;;
 	esac
-	echo ""
-	echo ""
+	echo "  (\_(\ "
+        echo " (=’ :’) :* Script by K-KRIT"
+        echo " (,(”)(”) °.¸¸.•°.¸¸.•°.¸¸.•°.¸¸.•°.¸¸.•°.¸¸.•°.¸¸.•"
 	echo "====================================================="
 	echo -e "ติดตั้งสำเร็จ... กรุณาพิมพ์คำสั่ง${GRAY} menu ${NC} เพื่อไปยังขั้นตอนถัดไป"
 	echo "====================================================="

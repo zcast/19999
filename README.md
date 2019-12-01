@@ -1,5 +1,5 @@
 <h1>Script by K-KRIT</h1>
-<p>วิธีติดตั้ง</p>
+<p>วิธีติดตั้ง Script VPN</p>
 <p>รันคำสั่งตามนี้</p>
 <div>
     <ul>
